@@ -17,6 +17,7 @@
 17.Redirect user to feed after login
 18.Api for maintaining user data on reload 
 19.navigating the user to /login if tokn not present
+20.Createlogout and redirect to /login  (Do validation for user input)
      Body
      navbar
 

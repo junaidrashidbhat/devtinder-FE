@@ -19,6 +19,7 @@ function Body() {
       });
       dispatch(addUser(userData.data));
     } catch (err) {
+      console.error("err",err)
       if(err.status === 401){
         return navigate("/login");
       }
