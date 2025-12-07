@@ -1,16 +1,26 @@
-# React + Vite
+//DevTinder
+1.Created a Vite + react project
+2.Created hello world in app.js / removed default code
+3.Git init
+4.Daisy UI and Tailwind Css for designing our components
+5.Add a header/nav bar / create separate files
+6.Install / use reactRouterSetup=routing 7. Create Browser Router > Routes > Route > ChiledrenRoute
+8.Create an outlet in your body componenet
+9.Create a footer 10. Create login page
+11.Install axios
+11.Cors- install cors in backend => add middle to withConfifurations:origin, credentials:true
+12.Whenver ur making api call pass axios => {withCredentials:true}
+13.Install redux toolkit { npm install @reduxjs/toolkit react-redux }
+14.Configure store => provider(app.jsx)=>> createSlice --> add reducer to store
+15. Add redux dev tools and see the data
+16. Navbar should update with user data as soon as you login 
+17.Redirect user to feed after login
+18.Api for maintaining user data on reload 
+19.navigating the user to /login if tokn not present
+     Body
+     navbar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+        -----route=/ Feed
+        -----route= /login =>login
+        -----route = /connections= connections
+        -----route = /profile => profile
