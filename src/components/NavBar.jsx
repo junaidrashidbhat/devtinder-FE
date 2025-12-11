@@ -42,7 +42,7 @@ const NavBar = () => {
               <div className="w-10 rounded-full">
                 <img
                   alt="Tailwind CSS Navbar component"
-                  src="https://avatars.githubusercontent.com/u/84491882?s=400&u=e5f62fa8d2f70c0e7afbe4b0c8f4e9b32b5d1de2&v=4"
+                  src={user?.data?.photoUrl}
                 />
               </div>
             )}
@@ -58,7 +58,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li>
-              <a>Settings</a>
+              <Link to="/connections" >Connections</Link>
             </li>
             <li>
               <a onClick={handleLogout}>Logout</a>
